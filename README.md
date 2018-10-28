@@ -9,7 +9,7 @@ Simple Arduino project. Easy.
 Arduino project, using custom-made library. Fancy.
 
 ## C
-Raw C implementation, using AVRDUDE to compile. Hard.
+Raw C implementation, using avr-gcc to compile. Hard.
 
 ## S
-Assembly implementation, using AVRDUDE to compile. Fun.
+Assembly implementation, using avr-gcc to compile. Fun.

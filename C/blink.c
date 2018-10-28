@@ -1,6 +1,5 @@
 /* blink.c
-   LED blinking program - C implementation
-   using AVRDUDE 
+   LED blinking program - C implementation for avr-gcc 
    2016, gmb
 */
 

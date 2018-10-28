@@ -1,6 +1,5 @@
 ; blink.S
-; LED blinking program - assembly implementation
-; using AVRDUDE 
+; LED blinking program - assembly implementation for avr-gcc 
 ; 2016, gmb
 
 ; allow us to use names like "PORTB"
