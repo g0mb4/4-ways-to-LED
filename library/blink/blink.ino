@@ -1,4 +1,4 @@
-/* blink_rgb_lib.ino
+/* blink.ino
    Simple LED blinking program using a custom library.
    2016, gmb
 */
