@@ -7,7 +7,7 @@ DUDE=$(ARDUINOPATH)\hardware\tools\avr\bin\avrdude
 DUDEPORT=COM8
 SRC=blink
 
-CCFLAGS1=-Os -DF_CPU=16000000UL -mmcu=atmega328p -I../../avr-gcc/avr/include -c -o $(SRC).o $(SRC).c
+CCFLAGS1=-Os -DF_CPU=16000000UL -mmcu=atmega328p -c -o $(SRC).o $(SRC).c
 CCFLAGS2=-mmcu=atmega328p $(SRC).o -o $(SRC)
 OBJFLAGS=-O ihex -R .eeprom $(SRC) $(SRC).hex
 DUDEFLAGS=-F -V -c arduino -p ATMEGA328P -C $(ARDUINOPATH)\hardware\tools\avr\etc\avrdude.conf -P $(DUDEPORT) -b 115200 -U flash:w:$(SRC).hex
